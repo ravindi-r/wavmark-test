@@ -1,14 +1,15 @@
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
+[tool.hatch.build.targets.wheel]
+packages = ["WavMarkTest"]
 [project]
-name = "wavmark"
+name = "WavMarkTest"
 version = "0.0.3"
 authors = [
-    { name = "Guangyu Chen (RUC)", email = "v-chenguangyu@outlook.com" },
+    { name = "Ravindi Ratnayake", email = "rrat0007@student.monash.edu" },
 ]
-description = "AI-Based Audio Watermarking Tool"
+description = "FIT3164 Audio Watermarking Tool"
 readme = "README.md"
 requires-python = ">=3.6"
 classifiers = [
@@ -23,5 +24,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/wavmark/wavmark"
-"Bug Tracker" = "https://github.com/wavmark/wavmark/issues"
+"Homepage" = "https://github.com/ravindi-r/wavmark-test"
+"Bug Tracker" = "https://github.com/ravindi-r/wavmark-test/issues"
